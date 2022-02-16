@@ -11,7 +11,7 @@
 
 - [Demo beta latest verion](https://twitter-pro.vercel.app/)
 
-![preview image](/public//preview/more.jpg)
+![preview image](/public//preview/demo.jpg)
 
 ## Feature and Plugin CLI
 
