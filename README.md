@@ -7,50 +7,7 @@
 
 - [Demo web here](https://twitter-meta.vercel.app/#/)
 
-<table>
-  <tr>
-    <th><a href="source/templates/markdown/README.md">🎪 home page</a></th>
-    <th><a href="source/templates/terminal/README.md">🔍 explore page</a></th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/home.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/explore.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <th><a href="source/templates/markdown/README.md">📄 messages page</a></th>
-    <th><a href="source/templates/terminal/README.md">🏷 profile page</a></th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/messages.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/profile.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-  <tr>
-    <th><a href="source/templates/markdown/README.md">⚙ more tab</a></th>
-    <th><a href="source/templates/terminal/README.md">📳 responsive page</a></th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/more.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-    <td align="center">
-      <img alt="" width="400" src="/public/preview/responsive.jpg">
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-</table>
+![preview image](/public//preview/more.jpg)
 
 ## Feature and Plugin CLI
 
