@@ -77,10 +77,10 @@ const newsList = reactive([{
       status: "2 hours ago"
 }]);
 const thumbStyleExplore = {
-        right: '1px',
+        right: '0px',
         borderRadius: '9px',
         backgroundColor: '#1DA1F2',
-        width: '5px',
+        width: '3px',
         opacity: 0.75
 };
 const contentStyleExplore = {
