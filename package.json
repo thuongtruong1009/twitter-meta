@@ -1,0 +1,42 @@
+{
+    "name": "twitter",
+    "version": "1.1.0",
+    "description": "Stay up-to-date with tweets from news and entertainment highlights to sports and politics, fully informed with all live commentary. Free widely available online for everyone.",
+    "productName": "Twitter",
+    "author": "https://github.com/thuongtruong1009/twitter-meta",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 0"
+    },
+    "dependencies": {
+        "@quasar/extras": "^1.0.0",
+        "core-js": "^3.6.5",
+        "date-fns": "^2.28.0",
+        "firebase": "^9.6.6",
+        "quasar": "^2.0.0",
+        "vue": "^3.0.0",
+        "vue-router": "^4.0.0"
+    },
+    "devDependencies": {
+        "@quasar/app": "^3.0.0",
+        "electron": "^17.0.0",
+        "electron-packager": "^15.4.0"
+    },
+    "browserslist": [
+        "last 10 Chrome versions",
+        "last 10 Firefox versions",
+        "last 4 Edge versions",
+        "last 7 Safari versions",
+        "last 8 Android versions",
+        "last 8 ChromeAndroid versions",
+        "last 8 FirefoxAndroid versions",
+        "last 10 iOS versions",
+        "last 5 Opera versions"
+    ],
+    "engines": {
+        "node": ">= 12.22.1",
+        "npm": ">= 6.13.4",
+        "yarn": ">= 1.21.1"
+    }
+}

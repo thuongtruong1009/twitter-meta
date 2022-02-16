@@ -1,0 +1,21 @@
+    // app global css in SCSS form
+    *,
+    html {
+        user-select: none;
+        overflow: hidden;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+    
+     ::-webkit-scrollbar,
+     ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #00AAEC;
+        border-radius: 300px;
+    }
