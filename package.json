@@ -5,7 +5,6 @@
     "productName": "Twitter",
     "author": "https://github.com/thuongtruong1009/twitter-meta",
     "license": "MIT",
-    "private": false,
     "scripts": {
         "test": "echo \"No test specified\" && exit 0"
     },

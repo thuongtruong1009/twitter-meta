@@ -5,7 +5,7 @@
 
 ## Preview
 
-- [Demo web here](https://twitter-meta.vercel.app/#/)
+- [Demo beta latest verion](https://twitter-meta.vercel.app/#/)
 
 ![preview image](/public//preview/more.jpg)
 
@@ -15,6 +15,14 @@
 - [Firebase](https://firebase.google.com/) and [Firestore](https://firebase.google.com/docs/firestore): realtime database using no-sql
 - [Electron for Quasar](https://quasar.dev/quasar-cli/developing-electron-apps/introduction): preview for desktop application
 - [Cordova for Quasar](https://quasar.dev/quasar-cli/developing-cordova-apps/introduction): preview for mobile apllication
+
+## Try it now!
+
+> Twitter-meta requires Node >=14
+
+### GitHub Template
+
+[Create a quasar repo from this template on GitHub](https://github.com/thuongtruong1009/twitter-meta/generate).
 
 ### Customize the configuration
 
@@ -60,6 +68,10 @@ quasar build
 ```bash
 npm install firebase
 ```
+
+### Deploy on Netlify
+
+- Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
 
 ### Install boot file
 
