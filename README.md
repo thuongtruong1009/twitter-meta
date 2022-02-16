@@ -1,3 +1,7 @@
+[![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://dev.to/thuongtruong1009)
+[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://github.com/thuongtruong1009)
+[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](mailto:ititiu19228@student.hcmiu.edu.vn)
+
 <div align="center">
   <h1 style="color:#00BFFF"><img src="https://br.atsit.in/vi/wp-content/uploads/2021/11/twitter-xem-xet-nguoi-dung-ghi-nhat-ky-loi-ngoai-iphone.png" width="40">twitter-meta</h1>
   <em style="color:purple">----------- A Quasar Framework app ----------</em>
@@ -5,7 +9,7 @@
 
 ## Preview
 
-- [Demo beta latest verion](https://twitter-meta.vercel.app/#/)
+- [Demo beta latest verion](https://twitter-pro.vercel.app/)
 
 ![preview image](/public//preview/more.jpg)
 
@@ -21,6 +25,7 @@
 > Twitter-meta requires Node >=14
 
 ### GitHub Template
+This template should help get you started developing with Vue 3 in Quasar.
 
 [Create a quasar repo from this template on GitHub](https://github.com/thuongtruong1009/twitter-meta/generate).
 
