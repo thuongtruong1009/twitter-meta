@@ -11,9 +11,11 @@
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
           </q-avatar>
-          <span class="gt-sm">{{$route.name}}</span>
+          <span class="route-name gt-sm">{{$route.name}}</span>
           <q-icon name="fas fa-dove" size="sm" color="primary" class="header-icon q-pa-md lt-md" />
         </q-toolbar-title>
+
+         <q-btn dense flat round icon="menu" @click="toggleRightDrawer" class="q-mx-md lt-md" />
 
       </q-toolbar>
     </q-header>
@@ -241,6 +243,14 @@ const second = ref(true);
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+.route-name{
+  font-family: 'Supermercado One', cursive;
+  color: #2c3591;
+  font-weight: 400;
+  text-shadow: #ab6f79 0px 3px 3px;
+  font-size: 1.7rem;
+}
 .header-icon{
   position: absolute;
   bottom: 0;
