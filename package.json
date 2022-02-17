@@ -21,7 +21,8 @@
     "devDependencies": {
         "@quasar/app": "^3.0.0",
         "electron": "^17.0.0",
-        "electron-packager": "^15.4.0"
+        "electron-packager": "^15.4.0",
+        "workbox-webpack-plugin": "^6.4.2"
     },
     "browserslist": [
         "last 10 Chrome versions",
