@@ -32,12 +32,15 @@
             </q-item-section>
 
             <q-item-section>
-              <q-item-label class="text-subtitle1">
-                <strong>Thuong Truong</strong>
-                <span class="text-grey-7 text-caption q-ml-sm">@thuongtruong1009</span>
-              </q-item-label>
-              <q-item-label caption>
-                <span class="text-grey-7">&bull; {{ relativeDate(tweet.date) }}</span>
+              <q-item-label class="text-subtitle1 flex justify-between items-start">
+                <div>
+                  <strong>Thuong Truong</strong>
+                  <span class="text-grey-7 text-caption q-ml-sm">@thuongtruong1009</span>
+                  <q-item-label caption>
+                    <span class="text-grey-7">&bull; {{ relativeDate(tweet.date) }}</span>
+                  </q-item-label>
+                </div>
+                <q-btn flat round color="grey-5" icon="more_horiz"/>
               </q-item-label>
               <q-item-label class="tweet-content text-body1 q-py-sm">{{ tweet.content }}</q-item-label>
               <div class="tweet-icon row justify-between q-mt-sm">
@@ -82,7 +85,7 @@ export default defineComponent({
       // }
       ],
       thumbStyle: {
-        right: '1px',
+        right: '0px',
         borderRadius: '9px',
         backgroundColor: '#1DA1F2',
         width: '5px',

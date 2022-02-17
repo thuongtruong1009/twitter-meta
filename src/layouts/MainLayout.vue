@@ -99,17 +99,39 @@
         <q-btn no-caps :ripple="{ color: 'yellow' }" rounded color="blue-7" label="Post new tweet" class="no-shadow" padding="sm lg" to="/" />
     </div>
     <q-list class="absolute-bottom">
-      <q-item class="cursor-pointer flex justify-between items-center q-px-lg" to="/profile">
+      <q-item class="cursor-pointer flex justify-between items-center q-px-lg">
         <q-icon name="account_circle" size="lg" />
         <q-item-section>
           <q-item-label class="text-weight-medium">Thuong Truong</q-item-label>
           <q-item-label caption>@thuongtruong1009</q-item-label>
         </q-item-section>
-
         <q-item-section side top>
           <q-item-label caption><q-btn flat round :color="isMore ? 'primary' : 'grey-5'" icon="more_horiz" @mouseover="hoverMore(true)"
     @mouseout="hoverMore(false)" /></q-item-label>
         </q-item-section>
+
+        <q-menu>
+          <q-list>
+            <q-item class="cursor-pointer flex justify-between items-center q-px-sm" to="/profile">
+              <q-icon name="account_circle" size="lg" />
+              <q-item-section>
+                <q-item-label class="text-weight-medium">Thuong Truong</q-item-label>
+                <q-item-label caption>@thuongtruong1009</q-item-label>
+              </q-item-section>
+              <q-item-section side top>
+                <q-item-label caption><q-btn flat round color="primary" icon="done" @mouseover="hoverMore(true)"
+          @mouseout="hoverMore(false)" /></q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-separator color="grey-2" />
+            <q-item v-close-popup clickable>
+              <q-item-section>Add an existing account</q-item-section>
+            </q-item>
+            <q-item v-close-popup clickable>
+              <q-item-section>Logout @thuongtruong1009</q-item-section>
+            </q-item>
+          </q-list>
+        </q-menu>
       </q-item>
     </q-list>
     </q-drawer>
