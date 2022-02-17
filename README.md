@@ -1,5 +1,5 @@
 [![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://dev.to/thuongtruong1009)
-[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://github.com/thuongtruong1009)
+[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://thuongtruong1009.github.io/twitter-meta/)
 [![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](mailto:ititiu19228@student.hcmiu.edu.vn)
 
 <div align="center">
@@ -16,9 +16,11 @@
 ## Feature and Plugin CLI
 
 - [Quasar](https://quasar.dev/): strong tool for build web app & mobile app
+- [Pinia](https://mokkapps.de/blog/building-a-vue-3-desktop-app-with-pinia-electron-and-quasar/): store & state management Plugin
 - [Firebase](https://firebase.google.com/) and [Firestore](https://firebase.google.com/docs/firestore): realtime database using no-sql
 - [Electron for Quasar](https://quasar.dev/quasar-cli/developing-electron-apps/introduction): preview for desktop application
 - [Cordova for Quasar](https://quasar.dev/quasar-cli/developing-cordova-apps/introduction): preview for mobile apllication
+- [PWA](https://quasar.dev/quasar-cli/developing-pwa/preparation): download preview to local like browser
 
 ## Try it now!
 
@@ -31,8 +33,8 @@ This template should help get you started developing with Vue 3 in Quasar.
 
 ### Customize the configuration
 
-- See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-- Prefix [size of electron browser](https://www.electronjs.org/docs/latest/api/browser-window).
+* See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+* Prefix [size of electron browser](https://www.electronjs.org/docs/latest/api/browser-window).
 * Format the time using [date formatter](https://date-fns.org/docs/Getting-Started).
 * Get component style [animation](https://animate.style/).
 * Style config [editorconfig](https://editorconfig.org/).
@@ -77,6 +79,12 @@ npm install firebase
 ### Deploy on Netlify
 
 - Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
+- not PWA
+  * output: /dist/spa
+  * script: quasar build
+- PWA
+  * output: /dist/pwa
+  * script: quasar build -m pwa
 
 ### Install boot file
 

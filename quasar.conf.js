@@ -20,7 +20,8 @@ module.exports = configure(function(ctx) {
         // --> boot files are part of "main.js"
         // https://quasar.dev/quasar-cli/boot-files
         boot: [
-            'firebase'
+            'firebase',
+            'pinia'
         ],
 
         // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
