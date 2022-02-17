@@ -1,5 +1,5 @@
 [![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://dev.to/thuongtruong1009)
-[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://github.com/thuongtruong1009)
+[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://thuongtruong1009.github.io/twitter-meta/)
 [![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](mailto:ititiu19228@student.hcmiu.edu.vn)
 
 <div align="center">
@@ -70,11 +70,6 @@ quasar dev
 quasar build
 ```
 
-### Build as PWA
-```bash
-quasar build -m pwa
-```
-
 ### Install firebase
 
 ```bash
@@ -84,6 +79,12 @@ npm install firebase
 ### Deploy on Netlify
 
 - Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
+- not PWA
+  * output: /dist/spa
+  * script: quasar build
+- PWA
+  * output: /dist/pwa
+  * script: quasar build -m pwa
 
 ### Install boot file
 
