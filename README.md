@@ -16,9 +16,11 @@
 ## Feature and Plugin CLI
 
 - [Quasar](https://quasar.dev/): strong tool for build web app & mobile app
+- [Pinia](https://mokkapps.de/blog/building-a-vue-3-desktop-app-with-pinia-electron-and-quasar/): store & state management Plugin
 - [Firebase](https://firebase.google.com/) and [Firestore](https://firebase.google.com/docs/firestore): realtime database using no-sql
 - [Electron for Quasar](https://quasar.dev/quasar-cli/developing-electron-apps/introduction): preview for desktop application
 - [Cordova for Quasar](https://quasar.dev/quasar-cli/developing-cordova-apps/introduction): preview for mobile apllication
+- [PWA](https://quasar.dev/quasar-cli/developing-pwa/preparation): download preview to local like browser
 
 ## Try it now!
 
@@ -31,8 +33,8 @@ This template should help get you started developing with Vue 3 in Quasar.
 
 ### Customize the configuration
 
-- See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-- Prefix [size of electron browser](https://www.electronjs.org/docs/latest/api/browser-window).
+* See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+* Prefix [size of electron browser](https://www.electronjs.org/docs/latest/api/browser-window).
 * Format the time using [date formatter](https://date-fns.org/docs/Getting-Started).
 * Get component style [animation](https://animate.style/).
 * Style config [editorconfig](https://editorconfig.org/).
@@ -66,6 +68,11 @@ quasar dev
 
 ```bash
 quasar build
+```
+
+### Build as PWA
+```bash
+quasar build -m pwa
 ```
 
 ### Install firebase
