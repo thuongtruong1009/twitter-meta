@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import { useStore } from "../../pinia/index.js";
+import { useStore } from "/src/pinia/index.js";
 
 const store = useStore();
 </script>
